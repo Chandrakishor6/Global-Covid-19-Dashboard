@@ -1,6 +1,8 @@
 # 🦠 COVID-19 Data Analysis & Visualization
 
-A full-cycle data analysis project that explores the spread, mortality, and vaccination patterns of the COVID-19 pandemic across countries and continents using SQL, Python, and Power BI.
+The COVID-19 pandemic significantly impacted public health and global economies. To better understand its spread, severity, and the role of vaccination efforts, this project performs a full-stack data analysis using SQL, Python, and Power BI.
+
+The goal is to extract actionable insights for stakeholders such as policymakers and public health professionals and helping them make data-driven decisions to save lives and improve future preparedness.
 
 ---
 
@@ -25,7 +27,7 @@ The project uses:
 Two primary datasets were merged on country and date:
 
 📃 CovidDeaths.csv  
-Fields: country, continent, date, population, total_cases, total_deaths, new_cases, new_deaths, icu_patients, hospital_beds_per_thousand
+Fields: country, continent, date, population, total_cases, total_deaths, new_cases, new_deaths, new_cases_per_million
 
 📃 CovidVaccinations.csv  
 Fields: country, date, new_vaccinations, people_fully_vaccinated_per_hundred, total_vaccinations
@@ -43,10 +45,10 @@ Key Measures Computed:
 🌍 Global Highlights:
 
 - 🌡 Highest infection rate: Brunei (76.99%), San Marino (74.24%)
-- ⚰️ Highest mortality rate: Peru (6604 deaths per million), Bulgaria (5679)
-- 💉 Most vaccinated countries: Gibraltar (112%), Nauru (111%), Brunei (99%)
-- ⚠️ Least vaccinated countries: Burundi (0.28%), Yemen (2.75%)
-- 🟢 Lowest mortality rate countries: Vatican, Tokelau, Falkland Islands (0 deaths)
+- ⚰️ Highest mortality rate: Yemen (18.07%), Sudan (7.89%), Sirya (5.51%), Somalia (4.98%)
+- 💉 Most vaccinated countries: Brunei (99%), Qatar (98.61%), UAE (97.55%)
+- ⚠️ Least vaccinated countries: Burundi (0.28%), Yemen (2.75%), papua New Guinea (3.74%)
+- 🟢 Lowest mortality rate countries: Vatican City, Tokelau, Falkland Islands (0 deaths)
 
 🌐 Continent-wise Death Rates:
 
@@ -69,7 +71,7 @@ Key Measures Computed:
 - 🇵🇪 Peru recorded the highest deaths per million (6604), indicating a possible healthcare capacity challenge.
 - 🇺🇸 The United States reported the highest total cases (103M) and total deaths (1.22M) globally.
 - 🏥 Falkland Islands, Vatican, and Saint Helena reported zero COVID-19 deaths.
-- 💉 Countries like Gibraltar and Nauru vaccinated more than 100% of their population (due to inclusion of non-residents/workforce).
+- 💉 Countries likeBrunei, Qtar, and UAE vaccinated more than 95% of their population.
 - 🔻 Countries like Burundi and Yemen had alarmingly low vaccination rates (<5%).
 
 📊 SQL and Python were used to create time-trend graphs, correlation charts, and deep filters for infection, mortality, and vaccination analytics.
