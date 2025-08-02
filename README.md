@@ -100,7 +100,8 @@ Key Measures Computed:
 - 🏥 Falkland Islands, Vatican, and Saint Helena reported zero COVID-19 deaths.
 - 💉 Countries likeBrunei, Qtar, and UAE vaccinated more than 95% of their population.
 - 🔻 Countries like Burundi and Yemen had alarmingly low vaccination rates (<5%).
-🗜️ Explore interactive insights on vaccination, death trends, and more.
+  
+-🗜️ Explore interactive insights on vaccination, death trends, and ['more'](Covid-19_Dashboard.pbix).
 ![Dashboard Screenshot](dashboard1.png)
 ---
 
@@ -119,7 +120,7 @@ Key Measures Computed:
 📂 Project Files:
 
 - [`SQLQuery1.sql`](SQLQuery1.sq) – Power BI dashboard file  
-- ['Covid-19 Dashboard.pbix'](Covid-19_Dashboard.pbix) – Power BI Dashboard File 
+- ['Covid-19_Dashboard.pbix'](Covid-19_Dashboard.pbix) – Power BI Dashboard File 
 
 ## 📬 Contact
 
