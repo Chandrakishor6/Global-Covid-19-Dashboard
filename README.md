@@ -1,4 +1,4 @@
-# 🦠 COVID-19 Data Analysis & Visualization
+# COVID-19 Data Analysis & Visualization
 
 The COVID-19 pandemic significantly impacted public health and global economies. To better understand its spread, severity, and the role of vaccination efforts, this project performs a full-stack data analysis using SQL, Python, and Power BI.
 
@@ -98,4 +98,11 @@ Key Measures Computed:
 
 🗜️ Explore interactive insights on vaccination, death trends, and more.
 
-📬 For feedback or collaboration, feel free to connect!
+## 📬 Contact
+
+**Chandra Kishor Mandal**  
+*Aspiring Data Analyst | B.Tech in Industrial & Production Engineering (NIT Jalandhar)*  
+📧 chandrakishorrv@gmail.com  
+📍 India  
+🔗 [LinkedIn – @chandrakishor06](https://www.linkedin.com/in/chandrakishor06)
+
