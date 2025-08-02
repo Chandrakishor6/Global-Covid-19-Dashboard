@@ -26,11 +26,51 @@ The project uses:
 
 Two primary datasets were merged on country and date:
 
-📃 CovidDeaths.csv  
-Fields: country, continent, date, population, total_cases, total_deaths, new_cases, new_deaths, new_cases_per_million
+### 🦠 CovidDeaths Table
 
-📃 CovidVaccinations.csv  
-Fields: country, date, new_vaccinations, people_fully_vaccinated_per_hundred, total_vaccinations
+| Column Name                    | Data Type        | Description                                               |
+|-------------------------------|------------------|-----------------------------------------------------------|
+| population                    | BIGINT           | Total population of the country                           |
+| total_cases                   | BIGINT           | Cumulative number of confirmed COVID-19 cases             |
+| new_cases                     | INT              | Newly reported cases on that date                         |
+| new_cases_smoothed           | FLOAT            | 7-day smoothed value of new cases                         |
+| total_deaths                  | BIGINT           | Cumulative number of confirmed COVID-19 deaths            |
+| new_deaths                    | INT              | Newly reported deaths on that date                        |
+| new_deaths_smoothed          | FLOAT            | 7-day smoothed value of new deaths                        |
+| total_cases_per_million      | FLOAT            | Total cases per 1 million population                      |
+| new_cases_per_million        | FLOAT            | New cases per 1 million population                        |
+| new_cases_smoothed_per_million | FLOAT          | Smoothed new cases per 1 million                          |
+| total_deaths_per_million     | FLOAT            | Total deaths per 1 million population                     |
+| new_deaths_per_million       | FLOAT            | New deaths per 1 million population                       |
+| new_deaths_smoothed_per_million | FLOAT         | Smoothed new deaths per 1 million                         |
+
+### 💉 CovidVaccinations Table
+
+| Column Name                         | Data Type     | Description                                             |
+|------------------------------------|---------------|---------------------------------------------------------|
+| iso_code                           | VARCHAR(10)   | ISO country code                                        |
+| continent                          | VARCHAR(50)   | Continent name                                          |
+| location                           | VARCHAR(100)  | Country or region name                                  |
+| date                               | DATE          | Observation date                                        |
+| new_tests                          | INT           | Number of new COVID-19 tests performed                  |
+| total_tests                        | BIGINT        | Cumulative number of tests                              |
+| total_tests_per_thousand           | FLOAT         | Tests per 1,000 people                                  |
+| new_tests_per_thousand             | FLOAT         | New tests per 1,000 people                              |
+| new_tests_smoothed                 | FLOAT         | 7-day smoothed value of new tests                       |
+| new_tests_smoothed_per_thousand    | FLOAT         | Smoothed new tests per 1,000                            |
+| positive_rate                      | FLOAT         | Share of positive tests                                 |
+| tests_per_case                     | FLOAT         | Number of tests per confirmed case                      |
+| total_vaccinations                 | BIGINT        | Total vaccine doses administered                        |
+| people_vaccinated                  | BIGINT        | People who received at least one vaccine dose           |
+| people_fully_vaccinated            | BIGINT        | People fully vaccinated                                 |
+| new_vaccinations                   | INT           | New vaccinations on that date                           |
+| new_vaccinations_smoothed          | FLOAT         | 7-day smoothed new vaccinations                         |
+| total_vaccinations_per_hundred     | FLOAT         | Total vaccinations per 100 people                       |
+| people_vaccinated_per_hundred      | FLOAT         | People vaccinated per 100 people                        |
+| people_fully_vaccinated_per_hundred| FLOAT         | Fully vaccinated per 100 people                         |
+| new_vaccinations_smoothed_per_million | FLOAT      | Smoothed new vaccinations per million                   |
+
+---
 
 Key Measures Computed:
 - Infection Rate = (Total Cases / Population) × 100  
