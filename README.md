@@ -1,4 +1,4 @@
-# COVID-19 Data Analysis & Visualization
+# COVID-19 Global Impact Analysis
 
 The COVID-19 pandemic significantly impacted public health and global economies. To better understand its spread, severity, and the role of vaccination efforts, this project performs a full-stack data analysis using SQL, Python, and Power BI.
 
