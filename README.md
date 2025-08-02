@@ -101,7 +101,6 @@ Key Measures Computed:
 - 💉 Countries likeBrunei, Qtar, and UAE vaccinated more than 95% of their population.
 - 🔻 Countries like Burundi and Yemen had alarmingly low vaccination rates (<5%).
   
--🗜️ Explore interactive insights on vaccination, death trends, and ['more'](Covid-19_Dashboard.pbix).
 ![Dashboard Screenshot](dashboard1.png)
 ---
 
