@@ -118,7 +118,7 @@ Key Measures Computed:
 
 📂 Project Files:
 
-- [`SQLQuery1.sql`](SQLQuery1.sq) – Power BI dashboard file  
+- [`SQLQuery1.sql`](SQLQuery1.sql) – Power BI dashboard file  
 - ['Covid-19_Dashboard.pbix'](Covid-19_Dashboard.pbix) – Power BI Dashboard File 
 
 ## 📬 Contact
